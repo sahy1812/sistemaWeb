@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6/09/2018, 08:52:59 PM
+    Author     : Yahir
+*/
+/*Lo mostramos 'hidden' por default*/
+#load {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+        url(../img/load.gif) 
+        50% 50% 
+        no-repeat;
+}
+
+/* Cuando el body tiene la clase 'loading' ocultamos la barra de navegacion */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Siempre que el body tenga la clase 'loading' mostramos el modal del loading */
+body.loading #load {
+    display: inline-block;
+}
+
+
+
+
