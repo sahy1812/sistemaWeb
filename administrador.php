@@ -11,6 +11,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SAHY</title>
         <link rel="stylesheet" href="css/booststap.min.css">
         <script src="js/jquery-1.11.1.min.js"></script>
@@ -18,6 +19,8 @@ and open the template in the editor.
         <link href="css/main.css" rel="stylesheet">
         <script src="js/main.js"></script>
         <link rel="stylesheet" href="fonts.css">
+        
+        
 
     </head>
     <body>
@@ -37,7 +40,7 @@ and open the template in the editor.
                         <a href="#" id="home"><i class="icon-home">&nbsp;</i>Inicio</a>
                     </li>
                     <li>
-                        <a href="#" id="usuarios"><i class="icon-users">&nbsp;</i>Usuarios</a>
+                        <a href="#" id="usuarios"><i class="icon-users">&nbsp;</i>Personal</a>
                     </li>
                     <li>
                         <a href="#" id="productos"><i class="icon-price-tags">&nbsp;</i>Productos</a>

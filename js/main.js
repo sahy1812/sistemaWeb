@@ -1,10 +1,10 @@
-/* 
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 $(document).ready(function () {
-    $('#contenido').load('vistas/inicio.html');
+    $('#contenido').load('vistas/inicio.php');
     var trigger = $('.hamburger'),
             overlay = $('.overlay'),
             isClosed = false;
@@ -32,7 +32,10 @@ $(document).ready(function () {
         $('#wrapper').toggleClass('toggled');
     });
     $('#usuarios').click(function () {
-        $('#contenido').load('vistas/usuarios.html');
+        $('#contenido').load('vistas/usuarios.php');
+    });
+    $('#home').click(function () {
+        $('#contenido').load('vistas/inicio.php');
     });
 });
 $("#form-login").submit(function (event) {
@@ -52,4 +55,3 @@ $("#form-login").submit(function (event) {
     });
     event.preventDefault();
 });
-

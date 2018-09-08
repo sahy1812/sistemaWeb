@@ -12,6 +12,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LOGIN</title>
         <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
         <link rel="stylesheet" href="css/booststap.min.css">
@@ -46,4 +47,5 @@ and open the template in the editor.
     <div id="load"></div>
 </html>
 <script src="js/main.js"></script>
+
 
