@@ -37,6 +37,9 @@ $(document).ready(function () {
     $('#home').click(function () {
         $('#contenido').load('vistas/inicio.php');
     });
+    $('#productos').click(function (){
+       $('#contenido').load('vistas/productos.php');
+    });
 });
 $("#form-login").submit(function (event) {
     $('#respuesta_login').html('');
